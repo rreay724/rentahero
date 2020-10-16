@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Heroes from "./pages/Heroes";
 import SingleHero from "./pages/SingleHero";
+import Error from "./pages/Error";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/heroes" component={Heroes} />
         <Route exact path="/heroes/:slug" component={SingleHero} />
+        <Route component={Error} />
       </Switch>
     </>
   );
