@@ -93,7 +93,6 @@ class HeroProvider extends Component {
 
   render() {
     return (
-      /// the ... pulls everything from state
       <HeroContext.Provider
         value={{
           ...this.state,
@@ -108,6 +107,7 @@ class HeroProvider extends Component {
 }
 
 const HeroConsumer = HeroContext.Consumer;
+export { HeroProvider, HeroConsumer, HeroContext };
 
 // higher order component - returns another component
 export function withHeroConsumer(Component) {
@@ -119,5 +119,3 @@ export function withHeroConsumer(Component) {
     );
   };
 }
-
-export { HeroProvider, HeroConsumer, HeroContext };
