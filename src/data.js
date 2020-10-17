@@ -62,6 +62,13 @@ import joker3 from "./images/joker/joker3.jpg";
 import joker4 from "./images/joker/joker4.jpg";
 import joker5 from "./images/joker/joker5.jpeg";
 
+import wonderWoman1 from "./images/wonderWoman/wonderWoman1.jpg";
+import wonderWoman2 from "./images/wonderWoman/wonderWoman2.jpg";
+import wonderWoman3 from "./images/wonderWoman/wonderWoman3.jpg";
+import wonderWoman4 from "./images/wonderWoman/wonderWoman4.jpg";
+import wonderWoman5 from "./images/wonderWoman/wonderWoman5.jpg";
+import wonderWoman6 from "./images/wonderWoman/wonderWoman6.jpg";
+
 export default [
   {
     sys: {
@@ -548,6 +555,60 @@ export default [
           fields: {
             file: {
               url: joker4,
+            },
+          },
+        },
+      ],
+    },
+  },
+  {
+    sys: {
+      id: "10",
+    },
+    fields: {
+      name: "wonder woman",
+      slug: "wonderWoman",
+      type: "hero",
+      company: "DC",
+      price: 2000,
+
+      parties: true,
+      willKill: false,
+      featured: false,
+      description:
+        "The princess of the Amazons, armed with superpowers of a god, Wonder Woman is one of Earth's most powerful defenders of peace, justice, and equality and a member of the Justice League. She is often considered an archetype for many non-comicbook heroines. She stands for Love and peace.",
+      extras: [
+        "Superhuman strength",
+        "Super healing",
+        "Enhanced senses",
+        "Conversion of mind power to physical power",
+      ],
+      images: [
+        {
+          fields: {
+            file: {
+              url: wonderWoman5,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: wonderWoman1,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: wonderWoman3,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: wonderWoman6,
             },
           },
         },
