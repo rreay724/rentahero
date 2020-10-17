@@ -11,7 +11,6 @@ ReactDOM.render(
       <BrowserRouter>
         <App />
       </BrowserRouter>
-      <Footer />
     </HeroProvider>
   </>,
   document.getElementById("root")

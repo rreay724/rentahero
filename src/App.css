@@ -443,7 +443,7 @@ h6 {
 }
 .hero-extras {
   width: 80vw;
-  margin: 0 auto 3rem auto;
+  margin: 0 auto;
   color: white;
   padding-bottom: 40px;
 }
@@ -568,24 +568,3 @@ h6 {
   }
 }
 /* end of heroes fitler*/
-
-/* footer styling */
-.footer-container {
-  background-color: rgba(255, 255, 255, 0.856);
-  color: black;
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
-  width: 100%;
-  height: 70px;
-}
-
-.footer-container a {
-  text-decoration: none;
-  color: black;
-}
-
-.footer-container a:hover {
-  color: var(--primaryColor);
-}
-/* end of footer styling */
