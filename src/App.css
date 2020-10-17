@@ -476,6 +476,23 @@ h6 {
     padding-left: 3rem;
   }
 }
+
+@media screen and (min-width: 414px) {
+  .single-hero-images,
+  .single-hero-info,
+  .hero-extras {
+    width: 95vw;
+    max-width: 1170px;
+  }
+  .single-hero-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+  }
+  .info {
+    padding-left: 3rem;
+  }
+}
 /* end of single hero*/
 /* herolist */
 .heroeslist {
