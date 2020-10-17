@@ -17,49 +17,49 @@ export default class Services extends Component {
         icon: <FaBirthdayCake />,
         title: "Birthday Parties",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis itaque harum cum iste sit provident aliquid! Corporis rem esse labore totam ut. Esse facere veniam rem iste suscipit voluptatibus iusto.",
+          "Surprise your child or favorite nerd friend adult with a visit from one of our Super Heroes for their birthday.",
       },
       {
         icon: <GiBatMask />,
         title: "Combat Training",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis itaque harum cum iste sit provident aliquid! Corporis rem esse labore totam ut. Esse facere veniam rem iste suscipit voluptatibus iusto.",
+          "Bring in one of our heroes for a combat clinic for your law enforcement, security, or martial arts team.",
       },
       {
         icon: <GiPunchBlast />,
         title: "Rough Up",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis itaque harum cum iste sit provident aliquid! Corporis rem esse labore totam ut. Esse facere veniam rem iste suscipit voluptatibus iusto.",
+          "Someone out of sorts? Stalking you? Harrassing your family? Hire one of our heroes to give them a gentle reminder to keep to themselves.",
       },
       {
         icon: <GiPistolGun />,
         title: "Hit Job",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis itaque harum cum iste sit provident aliquid! Corporis rem esse labore totam ut. Esse facere veniam rem iste suscipit voluptatibus iusto.",
+          "When a rough up won't work and the threat just has to be eliminated, select one of our choice heroes to take them out.",
       },
       {
         icon: <GiPineTree />,
         title: "Holiday Parties",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis itaque harum cum iste sit provident aliquid! Corporis rem esse labore totam ut. Esse facere veniam rem iste suscipit voluptatibus iusto.",
+          "Company or personal holiday party and want it to stand out? Hire one of our heroes to liven up the fun.",
       },
       {
         icon: <GiGlassCelebration />,
-        title: "Bar Mitzvahs",
+        title: "Bar and Bat Mitzvahs",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis itaque harum cum iste sit provident aliquid! Corporis rem esse labore totam ut. Esse facere veniam rem iste suscipit voluptatibus iusto.",
+          "Mazel Tov! Want to show that special young man or woman how much you care about them and their accomplishments? Hire one of our super heroes to make their special day even brighter.",
       },
       {
         icon: <FaGraduationCap />,
         title: "Commencement Speeches",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis itaque harum cum iste sit provident aliquid! Corporis rem esse labore totam ut. Esse facere veniam rem iste suscipit voluptatibus iusto.",
+          "Want to send your new grads off into the world with words of wisdom? Bring in one of our heroes to give them a pep talk that will prepare them to go out and make the world a better place.",
       },
       {
         icon: <GiPoliceBadge />,
         title: "Personal Security",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis itaque harum cum iste sit provident aliquid! Corporis rem esse labore totam ut. Esse facere veniam rem iste suscipit voluptatibus iusto.",
+          "Need security from the best? Hire one of our heroes for the ultimate protection and make sure you make it to and from your destination without harm.",
       },
     ],
   };
