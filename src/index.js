@@ -1,17 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import { HeroProvider } from "./context";
 import Footer from "./components/Footer";
 
 ReactDOM.render(
-  <HeroProvider>
-    <Router>
-      <App />
-    </Router>
-    <Footer />
-  </HeroProvider>,
+  <>
+    <HeroProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+      <Footer />
+    </HeroProvider>
+  </>,
   document.getElementById("root")
 );
 
