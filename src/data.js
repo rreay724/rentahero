@@ -69,6 +69,20 @@ import wonderWoman4 from "./images/wonderWoman/wonderWoman4.jpg";
 import wonderWoman5 from "./images/wonderWoman/wonderWoman5.jpg";
 import wonderWoman6 from "./images/wonderWoman/wonderWoman6.jpg";
 
+import captainAmerica1 from "./images/captainAmerica/captainAmerica1.jpg";
+import captainAmerica2 from "./images/captainAmerica/captainAmerica2.jpg";
+import captainAmerica3 from "./images/captainAmerica/captainAmerica3.jpg";
+import captainAmerica4 from "./images/captainAmerica/captainAmerica4.jpg";
+import captainAmerica5 from "./images/captainAmerica/captainAmerica5.jpg";
+
+import deadpool1 from "./images/deadpool/deadpool1.jpg";
+import deadpool2 from "./images/deadpool/deadpool2.jpg";
+import deadpool3 from "./images/deadpool/deadpool3.jpg";
+import deadpool4 from "./images/deadpool/deadpool4.jpg";
+import deadpool5 from "./images/deadpool/deadpool5.jpg";
+import deadpool6 from "./images/deadpool/deadpool6.jpg";
+import deadpool7 from "./images/deadpool/deadpool7.jpg";
+
 export default [
   {
     sys: {
@@ -609,6 +623,114 @@ export default [
           fields: {
             file: {
               url: wonderWoman6,
+            },
+          },
+        },
+      ],
+    },
+  },
+  {
+    sys: {
+      id: "11",
+    },
+    fields: {
+      name: "captain america",
+      slug: "captainAmerica",
+      type: "hero",
+      company: "Marvel",
+      price: 1000,
+
+      parties: true,
+      willKill: false,
+      featured: false,
+      description:
+        "During World War II, Steve Rogers volunteered to receive the experimental Super-Soldier Serum. Enhanced to the pinnacle of human physical potential and armed with an unbreakable shield, he became Captain America. After a failed mission left him encased in ice for decades, he was found and revived by the Avengers. Later joining their ranks and eventually becoming the team's leader.",
+      extras: [
+        "Has agility, strength, speed, endurance, and reaction time superior to any Olympic athlete who ever competed",
+        "Mastered the martial art of American-style boxing and judo, and has combined these disciplines with his own unique hand-to-hand style of combat",
+        "Captain America is one of the finest human combatants Earth has ever known",
+        "Immunity to diseases is extraordinary",
+      ],
+      images: [
+        {
+          fields: {
+            file: {
+              url: captainAmerica4,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: captainAmerica1,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: captainAmerica2,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: captainAmerica5,
+            },
+          },
+        },
+      ],
+    },
+  },
+  {
+    sys: {
+      id: "12",
+    },
+    fields: {
+      name: "deadpool",
+      slug: "deadpool",
+      type: "hero",
+      company: "Marvel",
+      price: 2500,
+
+      parties: true,
+      willKill: true,
+      featured: false,
+      description:
+        'Wade Wilson is a former test subject of the Weapon X program, where he received his regenerative healing factor through the scientific experiments conducted upon him. Deadpool\'s powers and personality traits combine to make a wild, mentally unstable, and unpredictable mercenary. Deadpool has been a member of X-Force and the Thunderbolts, and a self-professed member of the X-Men and the Avengers. The "Merc with a Mouth" is infamous for breaking the fourth wall.',
+      extras: [
+        "Regenerative healing factor",
+        "Skilled marksman, swordsman, and hand-to-hand combatant",
+        "Superhuman strength, durability, and agility",
+        "Telepathic immunity",
+      ],
+      images: [
+        {
+          fields: {
+            file: {
+              url: deadpool2,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: deadpool1,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: deadpool4,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: deadpool3,
             },
           },
         },
