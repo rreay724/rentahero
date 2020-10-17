@@ -492,6 +492,9 @@ h6 {
   .info {
     padding-left: 3rem;
   }
+  .single-hero-images img {
+    padding-right: 5px;
+  }
 }
 /* end of single hero*/
 /* herolist */
