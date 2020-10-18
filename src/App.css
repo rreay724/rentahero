@@ -17,6 +17,102 @@
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
+
+/* Main page */
+.main-page-body {
+  background-color: #282c34;
+}
+.main-logo {
+  height: 10vmin;
+  width: 70px;
+  pointer-events: none;
+  position: relative;
+  top: 40px;
+}
+
+@media screen and (max-width: 414px) {
+  .header-container {
+    padding: 50px 0px;
+    width: 50vw;
+    max-width: 500px;
+    font-size: 12px;
+  }
+
+  .main-logo {
+    position: absolute;
+    top: 84px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .main-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-container {
+  width: 100%;
+  text-align: center;
+  height: 65rem;
+}
+
+.main-header {
+  color: white;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+}
+
+.main-btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  color: var(--mainWhite);
+  background: blue;
+  padding: 0.4rem 0.9rem;
+  border: 3px solid blue;
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.main-btn-primary:hover {
+  background: transparent;
+  color: white;
+}
+
+/* Footer */
+
+.footer-container {
+  background-color: white;
+  height: 5rem;
+}
+
+.footer-text {
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+}
+
+.footer-text a {
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* End Footer */
+
+/* End Main page */
 /* globals */
 body {
   /* padding-top: 66px; */
