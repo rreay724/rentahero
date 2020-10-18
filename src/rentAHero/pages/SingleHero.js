@@ -48,7 +48,7 @@ export default class SingleHero extends Component {
         <Navbar />
         <StyledHeroProps img={mainImg || this.state.defaultBcg}>
           <Banner title={`${name}`}>
-            <Link to="/heroes" className="btn-primary">
+            <Link to="/hero/heroes" className="btn-primary">
               Back to Heroes
             </Link>
           </Banner>

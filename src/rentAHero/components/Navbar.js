@@ -16,7 +16,7 @@ export default class Navbar extends Component {
       <nav className="navbar">
         <div className="nav-center">
           <div className="nav-header">
-            <Link to="/">
+            <Link to="/hero">
               {/* <h6>Rent a Hero</h6> */}
               {/* <img className="page-logo" src={logo} /> */}
             </Link>
@@ -36,10 +36,17 @@ export default class Navbar extends Component {
           >
             {/* if using a lot of links, create object array */}
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Main</Link>
+              <div></div>
+            </li>
+
+            <li>
+              <Link to="/hero">Hero Home</Link>
+              <div></div>
             </li>
             <li>
-              <Link to="/heroes">Heroes</Link>
+              <Link to="/hero/heroes">Heroes</Link>
+              <div></div>
             </li>
           </ul>
         </div>
