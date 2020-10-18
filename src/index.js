@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
-import { HeroProvider } from "./context";
-import Footer from "./components/Footer";
+import { HeroProvider } from "./rentAHero/context";
+import Footer from "./rentAHero/components/Footer";
 
 ReactDOM.render(
   <>

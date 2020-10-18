@@ -15,7 +15,7 @@ export default function Hero({ hero }) {
           <h6>${price}</h6>
           <p>per day</p>
         </div>
-        <Link to={`/heroes/${slug}`} className="btn-primary hero-link">
+        <Link to={`/hero/heroes/${slug}`} className="btn-primary hero-link">
           {featured ? "Featured" : "Details"}
         </Link>
       </div>
