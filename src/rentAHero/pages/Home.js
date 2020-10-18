@@ -11,7 +11,6 @@ const Home = () => {
     <>
       <HeroProps>
         <Navbar />
-
         <Banner
           title="Rent a Hero"
           subtitle="heroes for all your family, professional, and personal needs"

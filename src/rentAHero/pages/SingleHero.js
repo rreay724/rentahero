@@ -15,6 +15,10 @@ export default class SingleHero extends Component {
     };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   static contextType = HeroContext;
   render() {
     const { getHero } = this.context;
