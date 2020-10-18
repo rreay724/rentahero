@@ -134,7 +134,7 @@ h6 {
 .nav-links a {
   display: block;
   text-decoration: none;
-  padding: 1rem 0;
+  padding: 1rem;
   color: white;
   transition: var(--mainTransition);
   text-align: center;
@@ -142,8 +142,17 @@ h6 {
   font-weight: 600;
   letter-spacing: var(--mainSpacing);
 }
+
+.nav-links div {
+  background-color: var(--primaryColor);
+  width: 40px;
+  height: 5px;
+  margin: auto;
+}
+
 .nav-links a:hover {
-  color: lightblue;
+  /* color: lightblue; */
+  font-size: 17px;
 }
 
 .show-nav {

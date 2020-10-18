@@ -36,10 +36,17 @@ export default class Navbar extends Component {
           >
             {/* if using a lot of links, create object array */}
             <li>
-              <Link to="/hero">Home</Link>
+              <Link to="/">Main</Link>
+              <div></div>
+            </li>
+
+            <li>
+              <Link to="/hero">Hero Home</Link>
+              <div></div>
             </li>
             <li>
               <Link to="/hero/heroes">Heroes</Link>
+              <div></div>
             </li>
           </ul>
         </div>
