@@ -283,13 +283,13 @@ h6 {
 .defaultHero,
 .heroesHero {
   min-height: calc(100vh - 66px);
-  background: url("./rentAHero/images/background10.png") center/cover no-repeat;
+  background: url("./images/background10.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .heroesHero {
-  background-image: url("./rentAHero/images/background6.jpg");
+  background-image: url("./images/background6.jpg");
   min-height: 60vh;
 }
 /* End of Hero */
