@@ -15,7 +15,7 @@ const Home = () => {
           title="Rent a Hero"
           subtitle="heroes for all your family, professional, and personal needs"
         >
-          <Link to="/hero/heroes" className="btn-primary">
+          <Link to="/heroes" className="btn-primary">
             Our Heroes
           </Link>
         </Banner>

@@ -35,18 +35,12 @@ export default class Navbar extends Component {
             className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
           >
             {/* if using a lot of links, create object array */}
-            <li>
-              <Link to="/">Main</Link>
-              <div></div>
-            </li>
 
             <li>
-              <Link to="/hero">Hero Home</Link>
-              <div></div>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/hero/heroes">Heroes</Link>
-              <div></div>
+              <Link to="/heroes">Heroes</Link>
             </li>
           </ul>
         </div>
