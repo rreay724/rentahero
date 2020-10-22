@@ -11,7 +11,7 @@ const Heroes = () => {
       <HeroProps hero="heroesHero">
         <Navbar />
         <Banner title="our heroes">
-          <Link to="/hero" className="btn-primary">
+          <Link to="/" className="btn-primary">
             return home
           </Link>
         </Banner>
