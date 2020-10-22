@@ -282,7 +282,7 @@ h6 {
 /* Hero */
 .defaultHero,
 .heroesHero {
-  min-height: calc(100vh - 66px);
+  min-height: calc(110vh - 70px);
   background: url("./images/background10.png") center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -655,7 +655,7 @@ h6 {
 .form-group label {
   display: block;
   letter-spacing: var(--mainSpacing);
-  margin-bottom: 0.5rem;
+  margin-s: 0.5rem;
   color: white;
 }
 .form-control {
@@ -691,3 +691,66 @@ h6 {
   }
 }
 /* end of heroes fitler*/
+/* page arrow */
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 20px;
+}
+
+.arrows path {
+  stroke: rgb(255, 233, 233);
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 3s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/ {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s; /* Safari 和 Chrome */
+}
+/* end page arrow */
