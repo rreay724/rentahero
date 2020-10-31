@@ -21,8 +21,11 @@ const Home = () => {
           </Link>
         </Banner>
       </HeroProps>
-      <Arrow />
-      <Services id="services" />
+      <a href="#services">
+        <Arrow />
+      </a>
+      <Services />
+
       <FeaturedHeroes />
     </>
   );

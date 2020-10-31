@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --primaryColor: rgb(95, 106, 255);
   --mainWhite: #fff;
